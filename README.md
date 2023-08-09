@@ -49,7 +49,7 @@ npm install discord.js
 If you want to contribute and help make YobiAi better, sure! Why not? You may request to pull this repository from the latest commit by executing the command
 
 ```
-git clone "Link here"
+git clone https://github.com/automizette/YobiAi
 ```
 
 Of course, new updates come and new commits is changing the entire codebase. So, to update it, just enter:
