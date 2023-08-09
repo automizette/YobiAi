@@ -45,7 +45,7 @@ module.exports = {
 
       try {
         // Calculation process. Depending on the score will have different outcomes
-        if (calculatedScore >= 8) {
+        if (calculatedScore >= 7) {
           await interaction.reply({
             content: `The score as of now is **${calculatedScore}** / 10. This demo can now be **Approved** based on the current score`,
             ephemeral: true,

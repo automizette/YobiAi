@@ -41,7 +41,7 @@ module.exports = {
 
       try {
         // Depending on the final result, different states will appear
-        if (finalResult >= 8) {
+        if (finalResult >= 7) {
           let embedApprove = new EmbedBuilder()
 
             .setColor(0x12ff12)
