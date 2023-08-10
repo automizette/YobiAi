@@ -70,7 +70,7 @@ module.exports = {
               "** is now **approved** for release! For more information, please contact automie or the A&R Team. Thankies~"
           );
           interaction.reply(
-            "The creator/s of this content has been notified through DMs!"
+            "The artist of this demo has been notified through DMs!"
           );
         } else if (interaction.options.get("state").value === "On-hold") {
           botClient.users.send(
@@ -80,7 +80,7 @@ module.exports = {
               "** is currently **on-hold**. The A&R Team or the Label Admin Team will contact you more about it. Just letting you know~"
           );
           interaction.reply(
-            "The creator/s of this content has been notified through DMs!"
+            "The artist of this demo has been notified through DMs!"
           );
         } else if (interaction.options.get("state").value === "Rejected") {
           botClient.users.send(
@@ -90,7 +90,7 @@ module.exports = {
               "** was rejected... I know it's sudden... But the A&R Team & the Label Admin Team will contact you regarding this. So please keep your DMs on :)"
           );
           interaction.reply(
-            "The creator/s of this content has been notified through DMs!"
+            "The artist of this demo has been notified through DMs!"
           );
         }
       } catch (error) {
