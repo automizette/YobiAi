@@ -103,7 +103,7 @@ module.exports = {
           break;
         case 9:
           interaction.reply(
-            "Bruh, how unlucky are you. Did you when I code this randomize reply message, this message is actually the last. How poor...--- WAIT! That's not me, it's automie! HELLO! " +
+            "Bruh, how unlucky are you. Did you know when I code this randomize reply message, this message is actually the last. How poor...--- WAIT! That's not me, it's automie! HELLO! " +
               interaction.member.displayName +
               "!"
           );
