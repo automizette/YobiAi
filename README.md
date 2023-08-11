@@ -8,7 +8,7 @@ Thanks to YobiAi's simple mathematics skills and evaluation, YobiAi can evaluate
 
 ## Features
 
-- Built by a label, for labels. With its simple (not perfect sometimes, but it gets the job done) A&R system, it can evaluate the scores of your A&R team and calculate the average score of them, giving you an insight into whether this demo is approved or not. Plus, you can execute a command on YobiAi to send a message to artists to notify them about the result!
+- Built by a label, for labels. With its simple (not perfect sometimes, but it gets the job done, at least!) A&R system, it can evaluate the scores of your A&R team and calculate the average score of them, giving you an insight into whether this demo is approved or not. Plus, you can execute a command on YobiAi to send a message to artists to notify them about the result!
 - Comes with simple moderation commands, like kick or ban!
 - Plus simple commands that can be modified, like the `/hello` or the `/links` command. Of course, you can modify them all however you like!
 
