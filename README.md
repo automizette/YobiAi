@@ -20,7 +20,7 @@ Some key things we need to point out though; The `.env`, `config.json`, and `nod
 
 **We recommend that you have at least some little knowledge to JavaScript and Discord.js as these preparation steps will not cover any stuff like putting your ClientID or Discord bot Token. If you have time, you may apply to [Codecademy](https://www.codecademy.com/learn/learn-java) to learn JavaScript for free, and also read the [Discord.js](https://discordjs.guide) documentation**
 
-In order to get started, you need [Visual Studio Code](https://code.visualstudio.com/) Code or any IDEs that you are comfortable using it. After, please install the following requirements:
+In order to get started, you need [Visual Studio Code](https://code.visualstudio.com/) or any IDEs that you are comfortable using it. After, please install the following requirements:
 
 - **Node.js** - [Download here](https://nodejs.org/en) _Must be Node v16.11.0 or higher_
 - **dotenv** - Install using terminal by typing `npm install dotenv`
