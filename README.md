@@ -1,12 +1,14 @@
 # YobiAi - Yobimo's best companion
 
-A Discord bot made for the A&R Team, but better and with more features!
+[![CodeFactor](https://www.codefactor.io/repository/github/automizette/yobiai/badge)](https://www.codefactor.io/repository/github/automizette/yobiai)
+
+The Discord bot made for the A&R Team, but better and with more features!
 
 Thanks to YobiAi's simple mathematics skills and evaluation, YobiAi can evaluate automatically whenever a demo is approved or not. Just give her the score of the demo, and you are good to go! Plus, she has moderator and weird commands come with her! Oh, the score algorithm can be changed, by the way.
 
 ## Features
 
-- Built by a label, for labels. With its simple (not perfect sometimes, but it gets the job done) A&R system, it can evaluate the scores of your A&R team and calculate the average score of them, giving you an insight into whether this demo is approved or not. Plus, you can execute a command on YobiAi to send a message to artists to notify them about the result!
+- Built by a label, for labels. With its simple (not perfect sometimes, but it gets the job done, at least!) A&R system, it can evaluate the scores of your A&R team and calculate the average score of them, giving you an insight into whether this demo is approved or not. Plus, you can execute a command on YobiAi to send a message to artists to notify them about the result!
 - Comes with simple moderation commands, like kick or ban!
 - Plus simple commands that can be modified, like the `/hello` or the `/links` command. Of course, you can modify them all however you like!
 
@@ -20,7 +22,7 @@ Some key things we need to point out though; The `.env`, `config.json`, and `nod
 
 **We recommend that you have at least some little knowledge to JavaScript and Discord.js as these preparation steps will not cover any stuff like putting your ClientID or Discord bot Token. If you have time, you may apply to [Codecademy](https://www.codecademy.com/learn/learn-java) to learn JavaScript for free, and also read the [Discord.js](https://discordjs.guide) documentation**
 
-In order to get started, you need [Visual Studio Code](https://code.visualstudio.com/) Code or any IDEs that you are comfortable using it. After, please install the following requirements:
+In order to get started, you need [Visual Studio Code](https://code.visualstudio.com/) or any IDEs that you are comfortable using it. After, please install the following requirements:
 
 - **Node.js** - [Download here](https://nodejs.org/en) _Must be Node v16.11.0 or higher_
 - **dotenv** - Install using terminal by typing `npm install dotenv`
