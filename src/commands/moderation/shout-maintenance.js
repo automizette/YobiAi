@@ -9,7 +9,7 @@ Developed using Node.js & Discord.js (JavaScript, json)
 const { ApplicationCommandOptionType } = require("discord.js");
 
 module.exports = {
-  deleted: true, // Set to true to avoid any potential command duplication when merging the code to the bot server
+  deleted: true, // Set to true to avoid duplication
   name: "shout-maintenance",
   description: "Announce that the bot will be having a maintenance",
   options: [
