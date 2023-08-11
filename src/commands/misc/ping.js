@@ -12,7 +12,7 @@ module.exports = {
   callback: async (botClient, interaction) => {
     try {
       // Will check bot's ping (Websocket, heartbeat)
-      interaction.reply(`Ping pong! Current ms is **${botClient.ws.ping}**`);
+      interaction.reply(`Ping pong! Current latency is **${botClient.ws.ping}**`);
     } catch (error) {
       // Catch error and notify automie
       const channelNotif = botClient.channels.cache.get("1136436375600758794");
