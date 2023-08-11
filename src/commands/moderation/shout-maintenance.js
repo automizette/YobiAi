@@ -43,7 +43,7 @@ module.exports = {
       } else if (interaction.member.roles.cache.has("1139380514676015116")) {
         // Will check bot's ping (Websocket, heartbeat)
         await channelAnnounce.send(
-          `Head's up, everyone! My ancestors decided to upgrade me into a newer version of YobiAi! - Bot will shut down for maintenance on **${dateOfMaintenance}** at **${timeOfMaintenance}**. Thank you!`
+          `Head's up, everyone! My ancestors decided to upgrade me into a newer version of YobiAi! - Bot will shut down for maintenance on **${dateOfMaintenance}** at **${timeOfMaintenance}**. Thank you for your understanding!`
         );
 
         await interaction.reply({
