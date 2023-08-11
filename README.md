@@ -1,5 +1,7 @@
 # YobiAi - Yobimo's best companion
 
+[![CodeFactor](https://www.codefactor.io/repository/github/automizette/yobiai/badge)](https://www.codefactor.io/repository/github/automizette/yobiai)
+
 A Discord bot made for the A&R Team, but better and with more features!
 
 Thanks to YobiAi's simple mathematics skills and evaluation, YobiAi can evaluate automatically whenever a demo is approved or not. Just give her the score of the demo, and you are good to go! Plus, she has moderator and weird commands come with her! Oh, the score algorithm can be changed, by the way.
