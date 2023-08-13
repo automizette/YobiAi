@@ -9,7 +9,6 @@ Developed using Node.js & Discord.js (JavaScript, json)
 const { ApplicationCommandOptionType } = require("discord.js");
 
 module.exports = {
-  deleted: true, // Set to true to avoid duplication
   name: "shout-maintenance",
   description: "Announce that the bot will be having a maintenance",
   options: [
@@ -23,7 +22,7 @@ module.exports = {
     {
       name: "time-set",
       description:
-        "Time when will the bot shut down for maintenance (HH:MM GMT+8)",
+        "Time when will the bot shut down for maintenance (HH:MM AM/PM GMT+8)",
       type: ApplicationCommandOptionType.String,
       required: true,
     },
@@ -34,6 +33,8 @@ module.exports = {
 
     const channelAnnounce = botClient.channels.cache.get("1139221026526474331");
     try {
+
+      // Check if the user has a developer role to announce bot maintenance. Role ID can be modified.
       if (!interaction.member.roles.cache.has("1139380514676015116")) {
         interaction.reply({
           content:
@@ -43,7 +44,7 @@ module.exports = {
       } else if (interaction.member.roles.cache.has("1139380514676015116")) {
         // Will check bot's ping (Websocket, heartbeat)
         await channelAnnounce.send(
-          `Head's up, everyone! My ancestors decided to upgrade me into a newer version of YobiAi! - Bot will shut down for maintenance on **${dateOfMaintenance}** at **${timeOfMaintenance}**. Thank you for your understanding!`
+          `Head's up, everyone! My ancestors decided to upgrade me into a newer version of YobiAi! - Bot will shut down for maintenance on **${dateOfMaintenance}** at **${timeOfMaintenance}** (GMT+8). Thank you for your understanding!`
         );
 
         await interaction.reply({

@@ -192,14 +192,14 @@ module.exports = {
     },
   ],
   callback: async (botClient, interaction) => {
-    //Check if the member is an A&R
+    //Check if the member is an A&R. Role ID can be modified.
     if (!interaction.member.roles.cache.has("985131381510254592")) {
       interaction.reply({
         content:
           "YobAi police here! You don't have enough role to execute this command!",
         ephemeral: true,
       });
-    } else if (interaction.member.roles.cache.has("985131381510254592")) {
+    } else if (interaction.member.roles.cache.has("985131381510254592")) { // Role ID is the A&R's Role ID. This can be modified.
       try {
         // Concatenate option values
         let artistName = interaction.options.get("artist-name").value;

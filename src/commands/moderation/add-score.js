@@ -24,6 +24,7 @@ module.exports = {
     },
   ],
   callback: async (botClient, interaction) => {
+    // Checking if the user is an A&R. Role ID can be modified.
     if (!interaction.member.roles.cache.has("985131381510254592")) {
       interaction.reply({
         content:

@@ -50,9 +50,10 @@ module.exports = {
     },
   ],
   callback: async (botClient, interaction) => {
-    let userIdentity = interaction.options.get("creator-name").value;
+    let userIdentity = interaction.options.get("artist-name").value;
     let demoName = interaction.options.get("demo-name").value;
-
+    
+    // Check if the user has the role to notify user. Role ID can be modified.
     if (!interaction.member.roles.cache.has("1010419493845090395")) {
       interaction.reply({
         content:

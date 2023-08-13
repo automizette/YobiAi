@@ -11,7 +11,7 @@ module.exports = {
     description: "Check YobiAi's Version",
     callback: async (botClient, interaction) => {
         const versionType = 'BETA'; // Version types: BETA, TEST, FULLVER
-        const versionNum = '0.0.5'; // Must be 0.0.0
+        const versionNum = '0.0.6'; // Must be 0.0.0
       try {
         interaction.reply(`YobiAi Version - **${versionType}** - ${versionNum}`);
       } catch (error) {

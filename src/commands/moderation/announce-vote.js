@@ -28,7 +28,7 @@ module.exports = {
     },
   ],
   callback: async (botClient, interaction) => {
-    // Check if the member is a Label Admin
+    // Check if the member is a Label Admin. Role ID can be modified
     if (!interaction.member.roles.cache.has("1010419493845090395")) {
       interaction.reply({
         content:

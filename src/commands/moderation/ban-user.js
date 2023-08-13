@@ -34,6 +34,9 @@ module.exports = {
   permissionsRequired: [PermissionFlagsBits.BanMembers],
   botPermissions: [PermissionFlagsBits.BanMembers],
   callback: async (botClient, interaction) => {
+    // Extra validation if the user has the role of an admin. if-else statement can be deleted
+    // as there's already a permission statement, but to take extra measure, you can leave it as
+    // is. Role ID can be modified.
     if (!interaction.member.roles.cache.has("1010419493845090395")) {
       interaction.reply({
         content:

@@ -10,7 +10,6 @@ const { EmbedBuilder } = require("@discordjs/builders");
 const { ApplicationCommandOptionType } = require("discord.js");
 
 module.exports = {
-  deleted: true, // Set to true to avoid duplication
   name: "assign-work",
   description: "Assign a work for someone (Short format only)",
   options: [
@@ -44,6 +43,7 @@ module.exports = {
   ],
   callback: async (botClient, interaction) => {
     try {
+      // Check if the user is validated to assign a work to someone. Role ID can be modified.
       if (!interaction.member.roles.cache.has("910859204145856512")) {
         interaction.reply({
           content:

@@ -34,6 +34,7 @@ module.exports = {
   permissionsRequired: [PermissionFlagsBits.KickMembers],
   botPermissions: [PermissionFlagsBits.KickMembers],
   callback: async (botClient, interaction) => {
+    // Check if the user is a moderator/admin. Role ID can be modified.
     if (!interaction.member.roles.cache.has("1010419493845090395")) {
       interaction.reply({
         content:
