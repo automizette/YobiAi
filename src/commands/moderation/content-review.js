@@ -228,10 +228,10 @@ module.exports = {
         // Await (async) configuration is needed to commence follow-up replies
         await interaction.reply({ embeds: [embed] });
         await interaction.followUp(
-          "Head's up, <@&985131381510254592> ! A new demo is now up for review. "
+          "Head's up! A new demo is now up for review. "
         );
         await interaction.followUp({
-          content: "Demo submitted successfully.",
+          content: "Demo has been submitted successfully. **Note: The bot doesn't notify the A&R due to its restriction. Please ping the <@&985131381510254592> once again to give them a notification.**",
           ephemeral: true,
         });
       } catch (error) {
